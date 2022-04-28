@@ -4,16 +4,16 @@ public class Runner {
 
 	public static void main(String[] args) {
 		
-	Person john = new Person("John", 20, 9.5);
-	Person amy = new Person("Amy", 90);
+	Encapsulation example = new Encapsulation();
 	
-	john.greet();
-	amy.greet();
+	example.setPassportNumber(5060354);
+	example.setMemorableWord("eggs");
 	
-	Person.hello();
+	System.out.println(example.getPassportNumber());
+	System.out.println(example.getMemorableWord());
 	
-	IterationDemo.catPrinter();
-	IterationDemo.doWhile(); 
+	
+	System.out.println(example);
 	}
 
 }
